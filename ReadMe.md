@@ -89,8 +89,6 @@ setup_var.efi CpuSetup:0x2B=0x0
 ## What's Working
 List all the hardware and features that are functioning correctly.
 - [x] Intel UHD Graphics 630 QE/CI
-- [x] CPU Power Management
-- [x] Sleep / Wake
 - [x] Audio (Internal Speakers, Headphone Jack)
 - [x] Microphone
 - [x] Ethernet
@@ -102,14 +100,17 @@ List all the hardware and features that are functioning correctly.
 - [x] Keyboard (including backlight if applicable)
 - [x] Battery Management
 - [x] Brightness Control
-- [ ] iMessage, FaceTime, App Store, iCloud
-- [ ] AirDrop, Handoff, Continuity (if applicable with your Wi-Fi/BT card)
-- [ ] Fingerprint reader
+
 
 
 ## What's Not Working / Known Issues
 List any hardware or features that are not working or not tested enough
+- [ ] CPU Power Management (not sure how to test it)
+- [ ] Sleep / Wake (not working, but not sure)
 - [ ] e.g., SD Card Reader (not tested)
+- [ ] iMessage, FaceTime, App Store, iCloud
+- [ ] AirDrop, Handoff, Continuity (if applicable with your Wi-Fi/BT card)
+- [ ] Fingerprint reader
 - ...
 
 ## Installation
